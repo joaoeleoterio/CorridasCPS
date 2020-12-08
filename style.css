@@ -43,6 +43,7 @@ li{
     border: darkcyan solid 1px;
     margin: 5px;
     text-align: center;
+    
 }
 .anuncio{
     background-color: gray;
@@ -58,9 +59,9 @@ li{
     
 }
 .linha{
-    display: inline-block;
+    position: static;
     margin: auto;
-    text-align: center;
+    
 }
 a{
     text-decoration: none;
