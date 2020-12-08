@@ -6,6 +6,7 @@ body{
 header{
     margin: none;
     padding: none;
+    margin: auto;
 }
 .topo{
     width: 100%;
@@ -29,8 +30,8 @@ li{
 }
 .folhacalendario{
     background-color: white;
-    width: 300px;
-    height: 300px;
+    width: 230px;
+    height: 230px;
     color: cadetblue;
     float: left;
     border-radius: 15px;
@@ -41,16 +42,17 @@ li{
 }
 .anuncio{
     background-color: lightgray;
-    width: 920px;
+    width: 100%;
+    max-width: 920px;
     margin-left: 5px;
     margin-bottom: 5px;
-    color: white;
+    color: black;
     border-radius: 15px;
     clear: left, right;
     text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    
+    padding-top: 20px;
+    padding-bottom: 20px;
+       
     
 }
 .linha{
