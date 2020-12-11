@@ -2,6 +2,7 @@ body{
     background-color: cadetblue;
     margin: 0;
     padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 header{
     margin: none;
@@ -25,47 +26,45 @@ li{
     color: cadetblue;
     list-style: none;
     margin-left: 0;
-    
-    
 }
 .folhacalendario{
     background-color: white;
+    display: inline-block;
     width: 230px;
     height: 230px;
     color: cadetblue;
     float: left;
     border-radius: 15px;
-    
     margin: 5px;
     text-align: center;
-    
 }
-.anuncio{
+.anunciopai{
+    position: relative;
+    display: block;
     background-color: lightgray;
+    height: 50px;
+    margin: auto;
     width: 100%;
     max-width: 920px;
-    margin-left: 5px;
-    margin-bottom: 5px;
     color: black;
     border-radius: 15px;
-    clear: left, right;
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-       
-    
+    text-align: center; 
+}
+.anuncio{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 .linha{
-    display: inline-block;
-    position: static;
+    width: 960px;
+    height: 240px;
     margin: auto;
-    
 }
 a{
     text-decoration: none;
     color: brown;
     margin-top: 0;
-
 }
 a:visited{
     color: brown;
@@ -73,5 +72,4 @@ a:visited{
 a:hover{
     text-decoration: none;
     color: cadetblue;
-    
 }
