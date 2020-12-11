@@ -44,6 +44,8 @@ li{
     background-color: lightgray;
     height: 50px;
     margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
     width: 100%;
     max-width: 920px;
     color: black;
@@ -57,9 +59,10 @@ li{
     transform: translate(-50%, -50%);
 }
 .linha{
-    width: 960px;
+    width: 720px;
     height: 240px;
     margin: auto;
+    background-color: ;
 }
 a{
     text-decoration: none;
