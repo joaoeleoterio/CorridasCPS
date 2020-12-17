@@ -34,20 +34,16 @@ header a:visited {
 .rodape a:visited{
     color: orangered
 }
-.fixed{
-    position: ;
-}
+
 #menu{
     font-size: 25px;
     height: 30px;
     margin-left: 20px;
-    
-   
 }
 h3{
     font-weight: normal;
 }
-}
+
 li{
     color: cadetblue;
     list-style: none;
@@ -88,7 +84,8 @@ li{
     width: 720px;
     height: 240px;
     margin: auto;
-    background-color: ;
+    
+    
 }
 a{
     text-decoration: none;
@@ -100,5 +97,5 @@ a:visited{
 }
 a:hover{
     text-decoration: none;
-    color: cadetblue;
+    color: orangered;
 }
