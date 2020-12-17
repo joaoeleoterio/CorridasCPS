@@ -44,24 +44,24 @@ header a:visited {
     
    
 }
-h3{
-    font-weight: normal;
-}
+button{
+    margin: 20px;
 }
 li{
-    color: cadetblue;
+    color: black;
     list-style: none;
     margin-left: 0;
 }
 .folhacalendario{
     background-color: white;
-    display: inline-block;
-    width: 230px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    width: 560px;
     height: 230px;
     color: cadetblue;
-    float: left;
     border-radius: 15px;
-    margin: 5px;
+    margin: auto;
     text-align: center;
 }
 .anunciopai{
@@ -92,13 +92,17 @@ li{
 }
 a{
     text-decoration: none;
-    color: black;
+    color: orangered;
     margin-top: 0;
 }
 a:visited{
-    color: black;
+    color: orangered;
 }
 a:hover{
     text-decoration: none;
     color: cadetblue;
+}
+footer{
+    position: ;
+    bottom: 0;
 }
